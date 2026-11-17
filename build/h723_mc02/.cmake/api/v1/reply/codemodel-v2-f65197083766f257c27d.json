@@ -1,0 +1,212 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						5,
+						6,
+						7,
+						8
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "boards",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-boards-Debug-81f8fe346ce5f68076e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "boards"
+				},
+				{
+					"build" : "boards/cubemx/h723_mc02/cmake/stm32cubemx",
+					"jsonFile" : "directory-boards.cubemx.h723_mc02.cmake.stm32cubemx-Debug-51eeedee49adef01f2bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "boards/cubemx/h723_mc02/cmake/stm32cubemx",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "boards/dsp",
+					"jsonFile" : "directory-boards.dsp-Debug-2ec8eb33c404127d92a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "boards/dsp",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "boards/wrapper",
+					"jsonFile" : "directory-boards.wrapper-Debug-73f4a89592eada3bf4d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "boards/wrapper"
+				},
+				{
+					"build" : "libs",
+					"jsonFile" : "directory-libs-Debug-dd7a5ca29a7a50124f40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libs"
+				},
+				{
+					"build" : "bsp",
+					"jsonFile" : "directory-bsp-Debug-5eeaceb4b74d42956076.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "bsp"
+				},
+				{
+					"build" : "devices",
+					"jsonFile" : "directory-devices-Debug-3d8699c5bdbc4c1e4b8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "devices"
+				},
+				{
+					"build" : "modules",
+					"jsonFile" : "directory-modules-Debug-7b6b9df59a6e09a69f15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "embedded_framework",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "STM32_Drivers::@d86f14c5ffad8b946031",
+					"jsonFile" : "target-STM32_Drivers-Debug-09f237d4a07e82edc365.json",
+					"name" : "STM32_Drivers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ThreadX::@d86f14c5ffad8b946031",
+					"jsonFile" : "target-ThreadX-Debug-e303557308245f77728f.json",
+					"name" : "ThreadX",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "USBX::@d86f14c5ffad8b946031",
+					"jsonFile" : "target-USBX-Debug-bb6374c4bdbba6ee383b.json",
+					"name" : "USBX",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "dsp::@3f111912e4e998089dfa",
+					"jsonFile" : "target-dsp-Debug-c37d1c8a125deeab48fa.json",
+					"name" : "dsp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "embedded_framework::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-embedded_framework-Debug-0f69d2788b6a2a009c4b.json",
+					"name" : "embedded_framework",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/WorkSpace/Robomaster_hero/build/h723_mc02",
+		"source" : "D:/WorkSpace/Robomaster_hero"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

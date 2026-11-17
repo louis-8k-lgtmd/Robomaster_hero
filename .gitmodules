@@ -1,0 +1,12 @@
+[submodule "bsp"]
+	path = bsp
+	url = git@github.com:HKUSTGZ-ROBOMASTER-PNX/pnx_bsp.git
+[submodule "devices"]
+	path = devices
+	url = git@github.com:HKUSTGZ-ROBOMASTER-PNX/pnx_devices.git
+[submodule "libs"]
+	path = libs
+	url = git@github.com:HKUSTGZ-ROBOMASTER-PNX/pnx_libs.git
+[submodule "modules"]
+	path = modules
+	url = git@github.com:HKUSTGZ-ROBOMASTER-PNX/pnx_modules.git

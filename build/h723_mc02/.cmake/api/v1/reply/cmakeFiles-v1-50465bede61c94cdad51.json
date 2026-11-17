@@ -1,0 +1,446 @@
+{
+	"globsDependent" : 
+	[
+		{
+			"expression" : "D:/WorkSpace/Robomaster_hero/boards/wrapper/h723_mc02/include/*.hpp",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"D:/WorkSpace/Robomaster_hero/boards/wrapper/h723_mc02/include/config.hpp",
+				"D:/WorkSpace/Robomaster_hero/boards/wrapper/h723_mc02/include/memory.hpp",
+				"D:/WorkSpace/Robomaster_hero/boards/wrapper/h723_mc02/include/peripherals.hpp"
+			]
+		},
+		{
+			"expression" : "D:/WorkSpace/Robomaster_hero/bsp/*/include",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"D:/WorkSpace/Robomaster_hero/bsp/adc/include",
+				"D:/WorkSpace/Robomaster_hero/bsp/bsp/include",
+				"D:/WorkSpace/Robomaster_hero/bsp/can/include",
+				"D:/WorkSpace/Robomaster_hero/bsp/dwt/include",
+				"D:/WorkSpace/Robomaster_hero/bsp/gpio/include",
+				"D:/WorkSpace/Robomaster_hero/bsp/pwm/include",
+				"D:/WorkSpace/Robomaster_hero/bsp/spi/include",
+				"D:/WorkSpace/Robomaster_hero/bsp/usart/include",
+				"D:/WorkSpace/Robomaster_hero/bsp/usb/include"
+			]
+		},
+		{
+			"expression" : "D:/WorkSpace/Robomaster_hero/bsp/*/include/*.hpp",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"D:/WorkSpace/Robomaster_hero/bsp/adc/include/bsp_adc.hpp",
+				"D:/WorkSpace/Robomaster_hero/bsp/bsp/include/bsp.hpp",
+				"D:/WorkSpace/Robomaster_hero/bsp/can/include/bsp_can.hpp",
+				"D:/WorkSpace/Robomaster_hero/bsp/dwt/include/bsp_dwt.hpp",
+				"D:/WorkSpace/Robomaster_hero/bsp/gpio/include/bsp_gpio.hpp",
+				"D:/WorkSpace/Robomaster_hero/bsp/pwm/include/bsp_pwm.hpp",
+				"D:/WorkSpace/Robomaster_hero/bsp/spi/include/bsp_spi.hpp",
+				"D:/WorkSpace/Robomaster_hero/bsp/usart/include/bsp_usart.hpp",
+				"D:/WorkSpace/Robomaster_hero/bsp/usb/include/bsp_usb.hpp"
+			]
+		},
+		{
+			"expression" : "D:/WorkSpace/Robomaster_hero/bsp/*/src/*.cpp",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"D:/WorkSpace/Robomaster_hero/bsp/adc/src/bsp_adc.cpp",
+				"D:/WorkSpace/Robomaster_hero/bsp/can/src/bxcan.cpp",
+				"D:/WorkSpace/Robomaster_hero/bsp/can/src/fdcan.cpp",
+				"D:/WorkSpace/Robomaster_hero/bsp/spi/src/bsp_spi.cpp",
+				"D:/WorkSpace/Robomaster_hero/bsp/threadx/src/bsp_threadx.cpp",
+				"D:/WorkSpace/Robomaster_hero/bsp/usart/src/bsp_usart.cpp",
+				"D:/WorkSpace/Robomaster_hero/bsp/usb/src/bsp_usb.cpp"
+			]
+		},
+		{
+			"expression" : "D:/WorkSpace/Robomaster_hero/devices/*/*/include",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"D:/WorkSpace/Robomaster_hero/devices/motor/dji/include",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/dm/include",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/lk/include",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/motor/include",
+				"D:/WorkSpace/Robomaster_hero/devices/remoter/ps2/include",
+				"D:/WorkSpace/Robomaster_hero/devices/remoter/remoter/include"
+			]
+		},
+		{
+			"expression" : "D:/WorkSpace/Robomaster_hero/devices/*/*/include/*.hpp",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"D:/WorkSpace/Robomaster_hero/devices/motor/dji/include/dji_manager.hpp",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/dji/include/dji_motor.hpp",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/dji/include/gm6020.hpp",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/dji/include/m2006.hpp",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/dji/include/m3508.hpp",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/dm/include/dm4310.hpp",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/dm/include/dm8009p.hpp",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/dm/include/dm_manager.hpp",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/dm/include/dm_motor.hpp",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/lk/include/lk8016.hpp",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/lk/include/lk9025.hpp",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/lk/include/lk_manager.hpp",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/lk/include/lk_motor.hpp",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/motor/include/motor.hpp",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/motor/include/motor_manager.hpp",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/motor/include/motor_utils.hpp",
+				"D:/WorkSpace/Robomaster_hero/devices/remoter/ps2/include/ps2.hpp",
+				"D:/WorkSpace/Robomaster_hero/devices/remoter/remoter/include/remoter.hpp"
+			]
+		},
+		{
+			"expression" : "D:/WorkSpace/Robomaster_hero/devices/*/*/src/*.cpp",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"D:/WorkSpace/Robomaster_hero/devices/motor/dji/src/dji_manager.cpp",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/dji/src/dji_motor.cpp",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/dm/src/dm_manager.cpp",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/dm/src/dm_motor.cpp",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/lk/src/lk_manager.cpp",
+				"D:/WorkSpace/Robomaster_hero/devices/motor/lk/src/lk_motor.cpp",
+				"D:/WorkSpace/Robomaster_hero/devices/remoter/dr16/src/dr16.cpp",
+				"D:/WorkSpace/Robomaster_hero/devices/remoter/ps2/src/ps2.cpp",
+				"D:/WorkSpace/Robomaster_hero/devices/remoter/vt03/src/vt03.cpp"
+			]
+		},
+		{
+			"expression" : "D:/WorkSpace/Robomaster_hero/devices/*/include",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"D:/WorkSpace/Robomaster_hero/devices/led/include",
+				"D:/WorkSpace/Robomaster_hero/devices/ui/include"
+			]
+		},
+		{
+			"expression" : "D:/WorkSpace/Robomaster_hero/devices/*/include/*.hpp",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"D:/WorkSpace/Robomaster_hero/devices/led/include/led.hpp",
+				"D:/WorkSpace/Robomaster_hero/devices/ui/include/ui.hpp"
+			]
+		},
+		{
+			"expression" : "D:/WorkSpace/Robomaster_hero/devices/*/src/*.cpp",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"D:/WorkSpace/Robomaster_hero/devices/led/src/gpio.cpp",
+				"D:/WorkSpace/Robomaster_hero/devices/led/src/led.cpp",
+				"D:/WorkSpace/Robomaster_hero/devices/led/src/ws2812.cpp",
+				"D:/WorkSpace/Robomaster_hero/devices/ui/src/ui.cpp"
+			]
+		},
+		{
+			"expression" : "D:/WorkSpace/Robomaster_hero/libs/*/include",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"D:/WorkSpace/Robomaster_hero/libs/control/include",
+				"D:/WorkSpace/Robomaster_hero/libs/crc/include",
+				"D:/WorkSpace/Robomaster_hero/libs/filters/include",
+				"D:/WorkSpace/Robomaster_hero/libs/math/include",
+				"D:/WorkSpace/Robomaster_hero/libs/msg/include",
+				"D:/WorkSpace/Robomaster_hero/libs/types/include"
+			]
+		},
+		{
+			"expression" : "D:/WorkSpace/Robomaster_hero/modules/*/*/include",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"D:/WorkSpace/Robomaster_hero/modules/imu/bmi088/include",
+				"D:/WorkSpace/Robomaster_hero/modules/imu/dmimu/include"
+			]
+		},
+		{
+			"expression" : "D:/WorkSpace/Robomaster_hero/modules/*/*/src/*.cpp",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"D:/WorkSpace/Robomaster_hero/modules/imu/bmi088/src/bmi088.cpp",
+				"D:/WorkSpace/Robomaster_hero/modules/imu/bmi088/src/bmi088_heater.cpp",
+				"D:/WorkSpace/Robomaster_hero/modules/imu/bmi088/src/bmi088_service.cpp",
+				"D:/WorkSpace/Robomaster_hero/modules/imu/dmimu/src/dmimu.cpp",
+				"D:/WorkSpace/Robomaster_hero/modules/imu/dmimu/src/dmimu_service.cpp"
+			]
+		},
+		{
+			"expression" : "D:/WorkSpace/Robomaster_hero/modules/*/include",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"D:/WorkSpace/Robomaster_hero/modules/imu/include",
+				"D:/WorkSpace/Robomaster_hero/modules/referee/include"
+			]
+		},
+		{
+			"expression" : "D:/WorkSpace/Robomaster_hero/modules/*/src/*.cpp",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"D:/WorkSpace/Robomaster_hero/modules/referee/src/referee.cpp"
+			]
+		},
+		{
+			"expression" : "D:/WorkSpace/Robomaster_hero/libs/*/include/*.hpp",
+			"paths" : 
+			[
+				"D:/WorkSpace/Robomaster_hero/libs/control/include/pid.hpp",
+				"D:/WorkSpace/Robomaster_hero/libs/crc/include/crc.hpp",
+				"D:/WorkSpace/Robomaster_hero/libs/filters/include/biquad.hpp",
+				"D:/WorkSpace/Robomaster_hero/libs/filters/include/iir.hpp",
+				"D:/WorkSpace/Robomaster_hero/libs/filters/include/kalman_1d.hpp",
+				"D:/WorkSpace/Robomaster_hero/libs/math/include/constants.hpp",
+				"D:/WorkSpace/Robomaster_hero/libs/math/include/constrains.hpp",
+				"D:/WorkSpace/Robomaster_hero/libs/math/include/geometry.hpp",
+				"D:/WorkSpace/Robomaster_hero/libs/math/include/quantize.hpp",
+				"D:/WorkSpace/Robomaster_hero/libs/msg/include/msg.hpp",
+				"D:/WorkSpace/Robomaster_hero/libs/types/include/callback.hpp",
+				"D:/WorkSpace/Robomaster_hero/libs/types/include/status.hpp"
+			],
+			"recurse" : true
+		}
+	],
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/h723_mc02/CMakeFiles/3.31.12/CMakeSystem.cmake"
+		},
+		{
+			"path" : "boards/cubemx/h723_mc02/cmake/gcc-arm-none-eabi.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/h723_mc02/CMakeFiles/3.31.12/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/h723_mc02/CMakeFiles/3.31.12/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/h723_mc02/CMakeFiles/3.31.12/CMakeASMCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/CMakeASMInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Compiler/GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Internal/CMakeASMLinkerInformation.cmake"
+		},
+		{
+			"path" : "configs/scripts/generate_config.cmake"
+		},
+		{
+			"path" : "configs/scripts/values.cmake"
+		},
+		{
+			"path" : "configs/scripts/communication.cmake"
+		},
+		{
+			"path" : "configs/scripts/imu.cmake"
+		},
+		{
+			"path" : "configs/scripts/boards.cmake"
+		},
+		{
+			"path" : "configs/scripts/user_config.hpp.in"
+		},
+		{
+			"path" : "configs/user_config.json"
+		},
+		{
+			"path" : "boards/wrapper/h723_mc02/include/config.hpp"
+		},
+		{
+			"path" : "boards/wrapper/f407_cboard/include/config.hpp"
+		},
+		{
+			"path" : "boards/CMakeLists.txt"
+		},
+		{
+			"path" : "boards/cubemx/h723_mc02/cmake/stm32cubemx/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/CMakeASMInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Compiler/GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/Projects/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"path" : "boards/dsp/CMakeLists.txt"
+		},
+		{
+			"path" : "boards/wrapper/CMakeLists.txt"
+		},
+		{
+			"path" : "libs/CMakeLists.txt"
+		},
+		{
+			"path" : "bsp/CMakeLists.txt"
+		},
+		{
+			"path" : "devices/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "D:/WorkSpace/Robomaster_hero/build/h723_mc02",
+		"source" : "D:/WorkSpace/Robomaster_hero"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

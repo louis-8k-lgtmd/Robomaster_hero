@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "boards/cubemx/h723_mc02/cmake/stm32cubemx",
+		"source" : "boards/cubemx/h723_mc02/cmake/stm32cubemx"
+	}
+}
